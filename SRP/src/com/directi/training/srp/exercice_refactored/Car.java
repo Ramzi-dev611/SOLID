@@ -1,7 +1,6 @@
-package com.directi.training.srp.exercise;
+package com.directi.training.srp.exercice_refactored;
 
-class Car
-{
+class Car {
     private final String _id;
     private final String _model;
     private final String _brand;
