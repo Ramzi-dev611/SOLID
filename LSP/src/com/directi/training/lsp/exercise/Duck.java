@@ -1,6 +1,6 @@
 package com.directi.training.lsp.exercise;
 
-public class Duck
+class Duck
 {
     public void quack()
     {

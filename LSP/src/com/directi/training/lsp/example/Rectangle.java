@@ -1,6 +1,6 @@
 package com.directi.training.lsp.example;
 
-public class Rectangle
+class Rectangle
 {
     protected int _width;
     protected int _height;
