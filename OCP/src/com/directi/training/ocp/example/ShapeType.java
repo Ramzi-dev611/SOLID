@@ -1,6 +1,6 @@
 package com.directi.training.ocp.example;
 
-public enum ShapeType
+enum ShapeType
 {
     CIRCLE, SQUARE
 }
