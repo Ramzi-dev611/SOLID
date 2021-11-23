@@ -1,6 +1,6 @@
 package com.directi.training.isp.example;
 
-public interface Worker
+interface Worker
 {
     String work();
 

@@ -1,6 +1,6 @@
 package com.directi.training.isp.exercise;
 
-public interface Door
+interface Door
 {
     void lock();
 
