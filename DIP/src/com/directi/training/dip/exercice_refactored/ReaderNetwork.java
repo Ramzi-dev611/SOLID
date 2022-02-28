@@ -8,7 +8,7 @@ import java.net.URL;
 public class ReaderNetwork implements Reader{
     private URL url;
 
-    public ReaderNetwork(String protocol, String host, String file)throws Exception{
+    public ReaderNetwork(String protocol, String host, String file)throws Exception {
         url = new URL(protocol, host, file);
     }
 

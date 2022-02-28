@@ -26,4 +26,12 @@ class Car {
     {
         return _brand;
     }
+
+    public String getName(){
+        StringBuilder sb = new StringBuilder();
+        sb.append(this._brand);
+        sb.append(" ");
+        sb.append(this._model);
+        return sb.toString();
+    }
 }

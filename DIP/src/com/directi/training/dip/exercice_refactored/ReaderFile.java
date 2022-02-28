@@ -8,7 +8,7 @@ public class ReaderFile implements Reader{
 
     BufferedReader reader;
 
-    public ReaderFile(String filePath)throws IOException {
+    public ReaderFile(String filePath) throws IOException {
         reader = new BufferedReader(
                 new FileReader(filePath)
         );

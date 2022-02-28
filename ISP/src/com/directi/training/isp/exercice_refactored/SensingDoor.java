@@ -1,6 +1,6 @@
 package com.directi.training.isp.exercice_refactored;
 
-public class SensingDoor implements Door, SensorDoor{
+public class SensingDoor implements Door, SensorConsumer {
 
     private boolean _locked;
     private boolean _opened;
